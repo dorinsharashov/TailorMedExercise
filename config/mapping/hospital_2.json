@@ -1,0 +1,41 @@
+{
+  "patient":{
+    "patientID":{
+      "name":"PatientId"
+    },
+    "patientDOB":{
+      "name": "PatientDOB"
+    },
+    "isDeceased":{
+      "name":"IsPatientDeceased",
+      "mapping":{
+        "N": "Active",
+        "Y": "Deceased"
+      }
+    },
+    "lastName":{
+      "name":"LastName"
+    },
+    "firstName":{
+      "name":"FirstName"
+    }
+  },
+  "treatment":{
+    "startDate":{
+      "name": "StartDate"
+    },
+    "endDate":{
+      "name": "EndDate"
+    },
+    "status":{
+      "name": "Status"
+    },
+    "displayName":{
+      "name":"DisplayName"
+    },
+    "numberOfCycles":{
+      "name":"NumberOfCycles"
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "startDate":{
+    "type":"Date",
+    "pattern": "MMM D YYYY"
+  },
+  "endDate":{
+    "type": "Date",
+    "pattern": "MMM D YYYY"
+  },
+  "status":{
+    "type":"Enum",
+    "validValues":["Active", "NonActive"]
+  },
+  "displayName":{
+    "type":"String"
+  },
+  "numberOfCycles":{
+    "type":"String"
+  }
+}

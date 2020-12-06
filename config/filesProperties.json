@@ -1,0 +1,22 @@
+[
+  {
+    "mapping":"hospital_1",
+    "schema":"patient",
+    "filePath":"files/hospital_1_Patient.csv"
+  },
+  {
+    "mapping":"hospital_1",
+    "schema":"treatment",
+    "filePath":"files/hospital_1_Treatment.csv"
+  },
+  {
+    "mapping":"hospital_2",
+    "schema":"patient",
+    "filePath":"files/hospital_2_Patient.csv"
+  },
+  {
+    "mapping":"hospital_2",
+    "schema":"treatment",
+    "filePath":"files/hospital_2_Treatment.csv"
+  }
+]

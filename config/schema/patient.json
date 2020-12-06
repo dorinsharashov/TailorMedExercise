@@ -1,0 +1,19 @@
+{
+  "patientID":{
+    "type":"String"
+  },
+  "patientDOB": {
+    "type":"Date",
+    "pattern": "MMM D YYYY"
+  },
+  "isDeceased": {
+    "type":"Enum",
+    "validValues":["Active", "Deceased",  "Hospice"]
+  },
+  "lastName" : {
+    "type":"String"
+  },
+  "firstName" : {
+    "type":"String"
+  }
+}
